@@ -11,16 +11,18 @@ $proxy->filter(new RemoveEncodingFilter());
 $path = $request->getUri()->getPath();
 try {
     $response = $proxy->forward($request)->to('https://uk88.top/');
-    //ob_start();
+    ob_start();
     (new Laminas\HttpHandlerRunner\Emitter\SapiEmitter)->emit($response);
-    //$output = ob_get_contents(); 
-    //ob_end_clean();
+    $output = ob_get_contents(); 
+    ob_end_clean();
     if($path == "/"){
-        //$output = str_replace("https://k1.uk88.top/static/assets/images/logo-v2.svg","/logo.jpg",$output);
+        //$output = str_replace("UK88","ACB888",$output);
+    }
+    echo $output;
+    if($path == "/"){
         echo '<script src="/inject.js"></script>';
         echo '<link rel="stylesheet" type="text/css" href="/css.css">';
     }
-    //echo $output;
 } catch(\GuzzleHttp\Exception\BadResponseException $e) {
     (new Laminas\HttpHandlerRunner\Emitter\SapiEmitter)->emit($e->getResponse());
 }
