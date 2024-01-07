@@ -1,0 +1,230 @@
+    .details[data-v-494747fe] {
+  padding: 0 4.266667vw;
+  height: 100vh;
+  overflow: hidden;
+}
+div {
+  box-sizing: border-box;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+* {
+  font-family: PingFangSC-Regular;
+}
+body, html {
+  font-family: PingFangSC-Regular,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,Roboto,PingFang SC,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+}
+body {
+  line-height: 1;
+}
+body {
+  line-height: 1.5;
+  font-variant: tabular-nums;
+  font-feature-settings: "tnum";
+}
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,Roboto,PingFang SC,miui,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+}
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+:root {
+  --swiper-navigation-size: 11.733333vw;
+}
+:root {
+  --swiper-theme-color: #007aff;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+    .header[data-v-2d9c7ad7] {
+  height: 13.333333vw;
+}
+.van-nav-bar--fixed {
+  z-index: 100;
+}
+.van-nav-bar {
+  box-shadow: 0 .5px 0 0 hsla(0,0%,100%,.15);
+}
+.van-nav-bar--fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.van-nav-bar {
+  position: relative;
+  z-index: 1;
+  line-height: 5.866667vw;
+  text-align: center;
+  background-color: #293356;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.van-nav-bar__content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 13.333333vw;
+}
+.van-nav-bar__right[data-v-2d9c7ad7], [data-v-2d9c7ad7] .van-nav-bar__left {
+  font-size: 5.333333vw;
+}
+.van-nav-bar__left {
+  left: 0;
+}
+.van-nav-bar__left, .van-nav-bar__right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0 4.266667vw;
+  font-size: 3.733333vw;
+  cursor: pointer;
+}
+.van-nav-bar__right .van-nav-bar__arrow[data-v-2d9c7ad7], [data-v-2d9c7ad7] .van-nav-bar__left .van-nav-bar__arrow {
+  margin-right: 1.066667vw;
+  font-size: 5.333333vw;
+}
+.van-nav-bar .van-icon {
+  color: #fff;
+}
+.van-nav-bar__arrow {
+  margin-right: 1.066667vw;
+  font-size: 4.266667vw;
+}
+.van-icon, .van-icon::before {
+  display: inline-block;
+}
+.van-icon {
+  position: relative;
+  font: normal normal normal 3.733333vw/1 vant-icon;
+    font-size: 3.73333vw;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.details .status-card[data-v-494747fe] {
+  padding: 2.666667vw;
+  margin-top: 13.333333vw;
+  height: 32.533333vw;
+  background-color: #323f6c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.card[data-v-97b4bb10] {
+  background: #35416d;
+    background-color: rgb(53, 65, 109);
+  border-radius: 2.133333vw;
+  color: #fff;
+}
+.details .detail-wp[data-v-494747fe] {
+  margin-top: 5.333333vw;
+  width: 100%;
+  background: #1b233d;
+  border-radius: 3.2vw;
+}
+.details .connect-cs[data-v-494747fe] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.666667vw;
+  padding: 0 4.266667vw;
+  height: 9.6vw;
+  line-height: 9.6vw;
+  border-radius: 2.133333vw;
+  background: #1b233d;
+  color: #fff;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.details .status-card .amount[data-v-494747fe] {
+  font-size: 7.466667vw;
+  color: #fff;
+  font-weight: 500;
+}
+.details .status-card .status[data-v-494747fe] {
+  font-size: 4.266667vw;
+  color: #e9cfa4;
+  text-align: center;
+  font-weight: 500;
+}
+.details .status-card .success[data-v-494747fe] {
+  color: #21e06b;
+}
+.details .detail-wp .detail[data-v-494747fe]:first-child {
+  box-shadow: none;
+}
+.details .detail-wp .detail[data-v-494747fe] {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.666667vw 1.6vw;
+  min-height: 9.6vw;
+  line-height: 4.266667vw;
+  color: #fff;
+  box-shadow: inset 0 .5px 0 0 rgba(144,162,220,.5);
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.details .connect-cs .iconfont[data-v-494747fe] {
+  font-size: 3.2vw;
+}
+.iconfont {
+  font-family: iconfont !important;
+  font-size: 4.266667vw;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-v-2d9c7ad7] .van-nav-bar__title {
+  font-size: 4.266667vw;
+}
+.van-nav-bar__title {
+  max-width: 60%;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 500;
+  font-size: 4.266667vw;
+}
+.van-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.icon-icon_more_white_16::before {
+    content: "\e63f";
+  }
+  .van-icon-arrow-left::before {
+    content: "\e668";
+  }
+  .van-icon, .van-icon::before {
+    display: inline-block;
+  }
+  div {
+    box-sizing: border-box;
+  }
