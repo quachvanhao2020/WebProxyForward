@@ -1,5 +1,5 @@
 <?php
 return [
     "ukfake1.com" => "https://uk88.top",
-    "ukfake1.com" => "https://u.pcloud.link/publink/show?code=XZCNyX0ZoRoinekg4IXKraPzHUC1052RoSly"
+    "ukfake1.com" => "https://xpornium.net/embed/j9rjl6e6b4q0e6"
 ];
